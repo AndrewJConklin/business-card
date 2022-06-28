@@ -31,11 +31,11 @@ export default function App() {
           <p>I love to try just about anything! My top interests have to be working through the entire Netflix streaming collection with my wife, hitting the gym, going for jogs, and kayaking/paddleboarding.  </p>
         </div>
         <div className='footer'>
-          <img src={twitter} alt="Headshot" />
-          <img src={facebook} alt="Headshot" />
-          <img src={instagram} alt="Headshot" />
+          <a href='https://www.linkedin.com/in/andrew-john-conklin'><img src={twitter} alt="Twitter Link" /></a>
+          <a href='https://www.linkedin.com/in/andrew-john-conklin'><img src={facebook} alt="Facebook Link" /></a>
+          <a href='https://www.linkedin.com/in/andrew-john-conklin'><img src={instagram} alt="Instagram Link" /></a>
         </div>
       </div>
-    </div>
+    </div >
   )
 }
